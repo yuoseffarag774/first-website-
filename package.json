@@ -1,0 +1,11 @@
+{
+  "name": "first-website-control-panel",
+  "version": "1.0.0",
+  "description": "Anime-inspired developer control panel with bilingual support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  }
+}
